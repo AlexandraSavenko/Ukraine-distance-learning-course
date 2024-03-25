@@ -90,3 +90,7 @@ img {
   margin-bottom: 48px;
   max-width: 700px;
 }
+.final-test {
+  display: flex;
+  justify-content: space-between;
+}
