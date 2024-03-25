@@ -70,6 +70,15 @@ img {
   margin: 0 auto;
   color: blue;
 }
+.hero-title {
+  padding: 10px;
+}
+.hero-list {
+  padding: 40px;
+}
+.hero-item-text {
+  color: black;
+}
 .section-content {
   display: flex;
   justify-content: space-around;
@@ -92,5 +101,13 @@ img {
 }
 .final-test {
   display: flex;
-  justify-content: space-between;
+  gap: 40px;
+}
+.hero-container {
+  background-image: url(../img/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1440px;
+  background-size: cover;
+  margin: 0 auto;
 }
