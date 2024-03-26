@@ -66,6 +66,10 @@ img {
   flex-direction: column;
   gap: 20px;
 }
+.hero-item-text {
+  font-size: 20px;
+  color: blue;
+}
 .section-title {
   margin: 0 auto;
   color: blue;
@@ -73,11 +77,22 @@ img {
 .hero-title {
   padding: 10px;
 }
+.table-download {
+  font-size: 20px;
+  font-weight: 600;
+  color: yellow;
+  border: 1px solid grey;
+  border-radius: 100px;
+  padding: 14px 40px;
+  background: blue;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.header-title-part {
+  display: block;
+}
 .hero-list {
   padding: 40px;
-}
-.hero-item-text {
-  color: black;
 }
 .section-content {
   display: flex;
@@ -97,17 +112,21 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
-  max-width: 700px;
+  max-width: 800px;
 }
+
 .final-test {
   display: flex;
   gap: 40px;
 }
 .hero-container {
-  background-image: url(../img/hero-img.jpg);
+  /* background-image: url(../img/hero-img.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1440px;
   background-size: cover;
   margin: 0 auto;
+}
+.container {
+  margin-bottom: 10px;
 }
